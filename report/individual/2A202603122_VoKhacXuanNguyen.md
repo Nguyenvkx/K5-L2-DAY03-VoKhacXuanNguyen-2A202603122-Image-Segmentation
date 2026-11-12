@@ -40,11 +40,11 @@ Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi x
 
 Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến bạn chưa sửa được, ghi rõ đã thử gì và cần coach hỗ trợ gì; không ghi “đã sửa” khi chưa sửa.
 
-- Task/ảnh/vùng: …
-- Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: …
-- Bằng chứng tôi nhìn thấy: …
-- Quy tắc và hành động sửa: …
-- Sau sửa đã Save và export lại chưa? …
+- Task/ảnh/vùng: hard_hanoptic/ảnh1/vùng sky
+- Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: biên phủ vùng
+- Bằng chứng tôi nhìn thấy: Vùng này phủ cả một phần tán cây và công trình đang xây ở bên phải ảnh.
+- Quy tắc và hành động sửa: Vùng SKY cần bám theo phần bầu trời nhìn thấy. Tôi sẽ chỉnh đường biên theo ngọn cây, đường mái và phần công trình nhô lên để loại các vùng đó khỏi nhãn
+- Sau sửa đã Save và export lại chưa? đã sửa và export lại
 
 Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): … / chưa có điểm. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
 
