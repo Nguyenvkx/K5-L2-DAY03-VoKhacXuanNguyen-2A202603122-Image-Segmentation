@@ -31,8 +31,8 @@ Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã 
 
 Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi xem bất kỳ đề xuất tự động nào cho object đó. Ghi ảnh/vị trí đủ để tìm lại; “quy tắc biên” là lý do bạn chọn hoặc dừng mask ở ranh đó.
 
-- Ảnh, vị trí và object Medium đầu tiên tự vẽ: 
-- Class và quy tắc tôi dùng để chọn biên: …
+- Ảnh, vị trí và object Medium đầu tiên tự vẽ: ảnh 1, person
+- Class và quy tắc tôi dùng để chọn biên: class person, quy tắc chọn biên là đi vùng biên sát vật thể không thừa cũng không thiếu
 - Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: không dùng
 - Nếu không dùng gợi ý: ghi “không dùng”; vẫn giải thích một quyết định gán nhãn của mình.
 
