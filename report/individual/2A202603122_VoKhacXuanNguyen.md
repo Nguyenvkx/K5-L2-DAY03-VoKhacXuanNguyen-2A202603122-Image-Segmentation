@@ -16,14 +16,14 @@ Ghi tên ZIP đúng như file trong `submissions/` và số ảnh đã vẽ, Sav
 | --- | --- | ---: | ---: |
 | easy_semantic | easy_semantic.zip| 3 / 3 | 20 |
 | medium_instance |medium_instance.zip| 3/ 3 | 32 |
-| hard_panoptic | hard_panoptic.zip| 2 / 2 | 30 |
+| hard_panoptic | hard_panoptic.zip| 1 / 2 | 30 |
 | cp1_holes | cp1_holes.zip| 1 / 1 | 3 |
 | cp2_slice | cp2_slice.zip| 1 / 1 | 3 |
 | cp5_occlusion | cp5_occlusion.zip| 1 / 1 | 3 |
 | cp3_thin | cp3_thin.zip| 1 / 1 | 3 |
 | cp4_curb | cp4_curb.zip| 1 / 1 | 3 |
 | cp6_coverage | cp6_coverage.zip| 1 / 1 | 3 |
-| **Tổng tối đa** | 9| 14| **100** |
+| **Tổng tối đa** | 8| 14| **100** |
 
 Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã báo coach.
 
@@ -54,6 +54,6 @@ Mỗi ca là một **vùng cụ thể** khiến bạn phải cân nhắc hai cá
 
 | Ảnh/vị trí | Hai cách hiểu có thể | Quy tắc/chứng cứ | Quyết định hoặc câu hỏi cho coach |
 | --- | --- | --- | --- |
-| 1 | … | … | … |
-| 2 | … | … | … |
-| 3 | … | … | … |
+| ảnh 1, medium_instance | Gộp người lái và xe máy thành một vùng, hay tách thành hai vùng? | Người lái che một phần xe, nhưng vẫn phân biệt được quần áo và chân người với thân xe và bánh sau. | Tách người lái và xe máy thành hai vùng, mỗi vùng theo phần nhìn thấy của đối tượng. |
+| 2, medium_instance | Nối vùng taxi qua chỗ bị người che, hay bám theo các phần taxi còn nhìn thấy? | Người đi bộ che phần giữa taxi. Hai bên vẫn thấy thân xe và đèn trước. | Dùng brush để vẽ theo vùng nhìn được của taxi |
+| 3, medium_instance | Tính cả ván vào vùng người, hay chỉ khoanh người? | Ván nằm ngay dưới giày và có đường viền riêng. Vùng đỏ trong ảnh dừng ở chân người. | khoanh người đến hết phần giày và để ván ngoài vùng người. |
